@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+    A bank account web site 
+--> 
+<head>
+    <meta charset="utf-8">
+    <title>Wells Vargo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body >
+    <div class="container">
+        <section id="content">
+            <!--login form-->
+            <form action="/WebBankAccount/Master" method ="get">
+                <h1>Wells Vargo</h1>
+                <div>
+                    <input type="text" placeholder="Username"   name ="username"/>
+                </div>
+                <div>
+                    <input type="password" placeholder="Password"  name="password"/>
+                </div>
+                <div>
+                    <!--login button-->
+                    <input name = "action" type="submit" value="Log in"  
+                           <!--new  user button -->
+                           <input name ="action" type ="submit" value = "New User"/>
+                </div>
+            </form><!-- form -->
+        </section><!-- content -->
+    </div><!-- container -->
+</body>
+</html>

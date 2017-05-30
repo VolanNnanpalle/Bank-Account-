@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+    This html page allows the user to check their balance, deposit and withdraw money into an account,transfer money 
+from one account to another, see all transactions and log out of their account.
+-->
+<html>
+    <head>
+        <title>Logged In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body  bgcolor =" #ed1c2">
+
+
+    <center><strong>YOU'RE LOGGED IN</strong></center>
+    <br/>
+    <br/>
+    <div id="navigation">
+        <!--log in forms-->
+        <form action="/WebBankAccount/Master" method="get">
+            <center> <input name ="action" type ="submit"  value="CHECKBALANCE"></center>
+            <br/>
+        </form>
+         <form action="/WebBankAccount/Master" method="get">
+            <center> <input name = "action" type ="submit"  value = "DEPOSIT"></center>
+            <br/>
+        </form>
+         <form action="/WebBankAccount/Master" method="get">
+            <center> <input name = "action" type ="submit"  value = "WITHDRAW"></center>
+            <br/>
+        </form>
+         <form action="/WebBankAccount/Master" method="get">
+            <center> <input name = "action" type ="submit"  value = "TRANSFER"></center>
+            <br/>
+        </form>
+         <form action="/WebBankAccount/Master" method="get">
+            <center> <input name = "action" type ="submit"  value = "TRANSACTION"></center>
+            <br/>
+        </form>
+          <form action="/WebBankAccount/Master" method="get">
+            <center> <input name = "action" type ="submit"  value = "OPEN MORE ACCOUNTS"></center>
+            <br/>
+        </form>
+        <form action="index.html" method="get">
+            <!--logout button-->
+            <center> <input name = "logout" type ="submit"  value = "Logout"></center>
+            <br/>
+        </form>
+
+    </div>
+</body>
+</html>
